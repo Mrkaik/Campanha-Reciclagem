@@ -1,0 +1,99 @@
+/* Estilos personalizados para a página "Sobre" */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #000000;
+    padding: 10px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.main-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Estilos do Navbar */
+.custom-navbar {
+    margin-bottom: 20px; /* Espaçamento abaixo do Navbar */
+    background-color: #000000; /* Cor de fundo do Navbar */
+    border: none; /* Remover todas as bordas */
+}
+
+.custom-navbar .navbar-toggler {
+    display: none; /* Remover o botão de toggle */
+}
+
+.custom-navbar .navbar-nav {
+    display: flex;
+    align-items: center;
+    list-style: none; /* Remover os bullets */
+    padding-left: 0; /* Remover padding padrão da lista */
+}
+
+.custom-navbar .navbar-nav .nav-item {
+    margin-right: 15px; /* Espaçamento entre os itens do Navbar */
+}
+
+.custom-navbar .navbar-nav .nav-item:last-child {
+    margin-right: 0; /* Remover o espaço após o último item */
+}
+
+.custom-navbar .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    padding: 10px 15px; /* Espaçamento interno dos links */
+    color: #ffffff; /* Cor do texto do link */
+    text-decoration: none; /* Remover sublinhado do link */
+}
+
+.custom-navbar .navbar-nav .nav-item .nav-link:hover {
+    background-color: #333333; /* Cor de fundo ao passar o mouse */
+    border-radius: 5px; /* Borda arredondada */
+}
+
+
+
+
+
+
+/* Estilos do Rodapé */
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+/* Estilos para o container do vídeo */
+.video-container {
+    text-align: center;
+    margin-top: 40px; /* Aumentar o espaço entre o vídeo e o texto acima */
+    margin-bottom: 40px; /* Adicionar margem abaixo do vídeo */
+    max-width: 560px; /* Defina a largura máxima para evitar transbordamento */
+    margin: 0 auto; /* Centralizar o vídeo horizontalmente */
+    overflow: hidden; /* Impedir que o vídeo transborde o contêiner */
+}
+
+/* Estilos para o vídeo do YouTube */
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none; /* Remover borda do player */
+}
